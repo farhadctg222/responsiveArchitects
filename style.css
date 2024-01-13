@@ -176,7 +176,7 @@ line-height: 26px
     }
     .some-fects{
         flex-direction: column;
-         gap: 20px;
+        
      }
     
 }
