@@ -143,6 +143,21 @@ line-height: 26px
     margin-top: 3px;
 
 }
+.sponspors-continar{
+    text-align: center;
+    margin-top: 70px;
+}
+.sponser-title{
+    font-size: 45px;
+}
+.sponser-desco{
+    font-size: 20px;
+}
+.sponser-img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
 
 @media screen and (max-width:576px) {
     header{
@@ -157,9 +172,13 @@ line-height: 26px
     .team-imag-continer{
         grid-template-columns: 1fr;
     }
-    .some-fects{
+    .some-fects, .sponser-img{
        flex-direction: column;
         gap: 20px;
+    }
+    .sponser-img img{
+        width: 200px;
+        margin: 0 auto;
     }
 
 
@@ -174,9 +193,17 @@ line-height: 26px
     nav, .team-continer{
         flex-direction: column;
     }
-    .some-fects{
+    .some-fects, .sponser-img{
         flex-direction: column;
         
      }
+     .sponser-img img{
+        width: 200px;
+        margin: 0 auto;
+        
+    }
+    .sponser-img{
+        margin: 0 auto;
+    }
     
 }
