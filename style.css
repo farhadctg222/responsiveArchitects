@@ -202,7 +202,18 @@ line-height: 26px
     display: flex;
     justify-content: space-around;
 }
-
+footer{
+    margin-top: 50px;
+}
+.foter-tile{
+    background-color: #FFF4E7;
+    padding: 10px;
+    text-align: center;
+}
+.foter-tile h4{
+    font-size: 20px;
+    color:  #424242;
+}
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
