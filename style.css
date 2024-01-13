@@ -174,5 +174,9 @@ line-height: 26px
     nav, .team-continer{
         flex-direction: column;
     }
+    .some-fects{
+        flex-direction: column;
+         gap: 20px;
+     }
     
 }
