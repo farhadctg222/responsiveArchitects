@@ -120,6 +120,50 @@ line-height: 26px
     font-weight: bolder;
 
 }
+
+.feature{
+    display: flex;
+    margin-top: 130px;
+    margin: 0 120px;
+    gap: 100px;
+}
+.feature-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+
+.feature-content .feature-card{
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature-img{
+    align-items: center;
+    margin: auto;
+}
+.tenYear{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 120px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.tenYear h1{
+   margin: 0 auto;
+}
+
+.feature-img img{
+    width: 100%;
+   
+}
+
+
+
 .some-fects{
     display: flex;
     justify-content: space-around;
@@ -130,7 +174,7 @@ line-height: 26px
        border: 1px solid #FF900E;
       
        text-align: center;
-      padding: 30px 30px;
+      padding: 20px 30px;
       border-radius: 2px;
 }
 .card-title{
@@ -180,6 +224,9 @@ line-height: 26px
         width: 200px;
         margin: 0 auto;
     }
+    .feature{
+        flex-direction: column;
+    }
 
 
 }
@@ -204,6 +251,9 @@ line-height: 26px
     }
     .sponser-img{
         margin: 0 auto;
+    }
+    .feature{
+        flex-direction: column;
     }
     
 }
